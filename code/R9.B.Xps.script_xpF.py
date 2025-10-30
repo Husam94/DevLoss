@@ -285,7 +285,7 @@ def main(num_synth_rep=1, num_dataproc_rep=1, num_split_rep=1, use_completed_tra
                     'activation_f': actf, 'two_outs': False, 
                     'comb': bo, **snx2, 'learningrate': optlr}
 
-    tracking_file = 'xpF_completed_jobs.p'
+    tracking_file = pn_xpF + 'xpF_completed_jobs.p'
     completed_jobs = set()
 
     if use_completed_tracking:
